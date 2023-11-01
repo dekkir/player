@@ -1,0 +1,350 @@
+Request method:	GET
+Request URI:	http://3.68.165.45/player/get/all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	http://3.68.165.45/player/create/supervisor?age=28&password=qwerty&login=dekkir&screenName=dekkir&gender=female&role=admin
+Proxy:			<none>
+Request params:	age=28
+				password=qwerty
+				login=dekkir
+				screenName=dekkir
+				gender=female
+				role=admin
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	http://3.68.165.45/player/create/supervisor?age=28&password=qwerty&login=dekkir&screenName=dekkir&gender=female&role=user
+Proxy:			<none>
+Request params:	age=28
+				password=qwerty
+				login=dekkir
+				screenName=dekkir
+				gender=female
+				role=user
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Nov 2023 08:52:29 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 610068930,
+    "login": "dekkir",
+    "password": null,
+    "screenName": null,
+    "gender": null,
+    "age": null,
+    "role": null
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Nov 2023 08:52:29 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 610068930,
+    "login": "dekkir",
+    "password": null,
+    "screenName": null,
+    "gender": null,
+    "age": null,
+    "role": null
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Nov 2023 08:52:29 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "players": [
+        {
+            "id": 1,
+            "screenName": "testSupervisor",
+            "gender": "male",
+            "age": 28
+        },
+        {
+            "id": 237106643,
+            "screenName": "Heather N. Yonn",
+            "gender": "male",
+            "age": 30
+        },
+        {
+            "id": 1622203486,
+            "screenName": "Emma Royds",
+            "gender": "male",
+            "age": 22
+        },
+        {
+            "id": 1859769580,
+            "screenName": "Frank Furter",
+            "gender": "male",
+            "age": 40
+        },
+        {
+            "id": 2041018576,
+            "screenName": "Us4",
+            "gender": "male",
+            "age": 23
+        },
+        {
+            "id": 122671616,
+            "screenName": "XQKiXpB+ekv",
+            "gender": "male",
+            "age": 31
+        },
+        {
+            "id": 222482592,
+            "screenName": "Rusty Fender",
+            "gender": "male",
+            "age": 32
+        },
+        {
+            "id": 752755117,
+            "screenName": "Use3",
+            "gender": "male",
+            "age": 17
+        }
+    ]
+}
+Request method:	POST
+Request URI:	http://3.68.165.45/player/get
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "playerId": 1
+}
+Request method:	PATCH
+Request URI:	http://3.68.165.45/player/update/dekkir/-1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "age": null,
+    "gender": null,
+    "id": null,
+    "login": null,
+    "password": null,
+    "role": null,
+    "screenName": null
+}
+HTTP/1.1 200 
+Content-Length: 0
+Date: Wed, 01 Nov 2023 08:52:29 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Nov 2023 08:52:29 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1,
+    "login": "supervisor",
+    "password": "testSupervisor",
+    "screenName": "testSupervisor",
+    "gender": "male",
+    "age": 28,
+    "role": "supervisor"
+}
+Request method:	PATCH
+Request URI:	http://3.68.165.45/player/update/dekkir/9223372036854775807
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "age": null,
+    "gender": null,
+    "id": null,
+    "login": null,
+    "password": null,
+    "role": null,
+    "screenName": null
+}
+Request method:	POST
+Request URI:	http://3.68.165.45/player/get
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "playerId": 610068930
+}
+HTTP/1.1 200 
+Content-Length: 0
+Date: Wed, 01 Nov 2023 08:52:30 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Request method:	PATCH
+Request URI:	http://3.68.165.45/player/update/dekkir/610068930
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "age": 55,
+    "gender": null,
+    "id": null,
+    "login": null,
+    "password": null,
+    "role": null,
+    "screenName": null
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Nov 2023 08:52:30 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 610068930,
+    "login": "dekkir",
+    "password": "qwerty",
+    "screenName": "dekkir",
+    "gender": "female",
+    "age": 28,
+    "role": "user"
+}
+Request method:	POST
+Request URI:	http://3.68.165.45/player/get
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "playerId": -1
+}
+HTTP/1.1 200 
+Content-Length: 0
+Date: Wed, 01 Nov 2023 08:52:30 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Nov 2023 08:52:30 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 610068930,
+    "login": "dekkir",
+    "screenName": "dekkir",
+    "gender": "female",
+    "age": 55,
+    "role": "user"
+}
+Request method:	DELETE
+Request URI:	http://3.68.165.45/player/delete/supervisor
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "playerId": 610068930
+}
+Request method:	DELETE
+Request URI:	http://3.68.165.45/player/delete/supervisor
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "playerId": 610068930
+}
+HTTP/1.1 204 
+Date: Wed, 01 Nov 2023 08:52:30 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive

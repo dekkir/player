@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-01T10:52:28 EET" name="Parallel test suite" finished-at="2023-11-01T10:52:33 EET" duration-ms="4724">
+    <groups>
+    </groups>
+    <test started-at="2023-11-01T10:52:28 EET" name="Tests" finished-at="2023-11-01T10:52:33 EET" duration-ms="4724">
+      <class name="dek21.tests.player_controller.GetPlayerByIdTest">
+        <test-method is-config="true" signature="configureEndPoints()[pri:0, instance:dek21.tests.player_controller.GetPlayerByIdTest@50fe837a]" started-at="2023-11-01T10:52:28 EET" name="configureEndPoints" finished-at="2023-11-01T10:52:29 EET" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureEndPoints -->
+        <test-method is-config="true" signature="prepareLogFile()[pri:0, instance:dek21.tests.player_controller.GetPlayerByIdTest@50fe837a]" started-at="2023-11-01T10:52:29 EET" name="prepareLogFile" finished-at="2023-11-01T10:52:29 EET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareLogFile -->
+        <test-method is-config="true" signature="setRestAssured()[pri:0, instance:dek21.tests.player_controller.GetPlayerByIdTest@50fe837a]" started-at="2023-11-01T10:52:29 EET" name="setRestAssured" finished-at="2023-11-01T10:52:29 EET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRestAssured -->
+        <test-method is-config="true" signature="preparePlayers()[pri:0, instance:dek21.tests.player_controller.GetPlayerByIdTest@50fe837a]" started-at="2023-11-01T10:52:29 EET" name="preparePlayers" finished-at="2023-11-01T10:52:30 EET" duration-ms="1617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preparePlayers -->
+        <test-method signature="getDefaultPlayerByIdTest()[pri:0, instance:dek21.tests.player_controller.GetPlayerByIdTest@50fe837a]" started-at="2023-11-01T10:52:30 EET" name="getDefaultPlayerByIdTest" description="Get default Player" finished-at="2023-11-01T10:52:31 EET" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDefaultPlayerByIdTest -->
+        <test-method signature="getPlayerByIdTest()[pri:0, instance:dek21.tests.player_controller.GetPlayerByIdTest@50fe837a]" started-at="2023-11-01T10:52:31 EET" name="getPlayerByIdTest" description="Get Player by ID" finished-at="2023-11-01T10:52:31 EET" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlayerByIdTest -->
+        <test-method signature="getPlayerByNegativeIdTest()[pri:0, instance:dek21.tests.player_controller.GetPlayerByIdTest@50fe837a]" started-at="2023-11-01T10:52:31 EET" name="getPlayerByNegativeIdTest" description="Get Player by negative ID" finished-at="2023-11-01T10:52:31 EET" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlayerByNegativeIdTest -->
+        <test-method is-config="true" signature="clearData()[pri:0, instance:dek21.tests.player_controller.GetPlayerByIdTest@50fe837a]" started-at="2023-11-01T10:52:31 EET" name="clearData" finished-at="2023-11-01T10:52:31 EET" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearData -->
+        <test-method is-config="true" signature="addLogToAllure()[pri:0, instance:dek21.tests.player_controller.GetPlayerByIdTest@50fe837a]" started-at="2023-11-01T10:52:31 EET" name="addLogToAllure" description="Add logs to Allure Report" finished-at="2023-11-01T10:52:31 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLogToAllure -->
+      </class> <!-- dek21.tests.player_controller.GetPlayerByIdTest -->
+      <class name="dek21.tests.player_controller.GetPlayersTest">
+        <test-method is-config="true" signature="configureEndPoints()[pri:0, instance:dek21.tests.player_controller.GetPlayersTest@3c435123]" started-at="2023-11-01T10:52:28 EET" name="configureEndPoints" finished-at="2023-11-01T10:52:29 EET" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureEndPoints -->
+        <test-method is-config="true" signature="prepareLogFile()[pri:0, instance:dek21.tests.player_controller.GetPlayersTest@3c435123]" started-at="2023-11-01T10:52:29 EET" name="prepareLogFile" finished-at="2023-11-01T10:52:29 EET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareLogFile -->
+        <test-method is-config="true" signature="setRestAssured()[pri:0, instance:dek21.tests.player_controller.GetPlayersTest@3c435123]" started-at="2023-11-01T10:52:29 EET" name="setRestAssured" finished-at="2023-11-01T10:52:29 EET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRestAssured -->
+        <test-method signature="getPlayersTest()[pri:0, instance:dek21.tests.player_controller.GetPlayersTest@3c435123]" started-at="2023-11-01T10:52:29 EET" name="getPlayersTest" description="Get Players" finished-at="2023-11-01T10:52:32 EET" duration-ms="3278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlayersTest -->
+        <test-method is-config="true" signature="addLogToAllure()[pri:0, instance:dek21.tests.player_controller.GetPlayersTest@3c435123]" started-at="2023-11-01T10:52:32 EET" name="addLogToAllure" description="Add logs to Allure Report" finished-at="2023-11-01T10:52:32 EET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLogToAllure -->
+      </class> <!-- dek21.tests.player_controller.GetPlayersTest -->
+      <class name="dek21.tests.player_controller.UpdatePlayerTest">
+        <test-method is-config="true" signature="configureEndPoints()[pri:0, instance:dek21.tests.player_controller.UpdatePlayerTest@4f2c9ba6]" started-at="2023-11-01T10:52:28 EET" name="configureEndPoints" finished-at="2023-11-01T10:52:29 EET" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureEndPoints -->
+        <test-method is-config="true" signature="prepareLogFile()[pri:0, instance:dek21.tests.player_controller.UpdatePlayerTest@4f2c9ba6]" started-at="2023-11-01T10:52:29 EET" name="prepareLogFile" finished-at="2023-11-01T10:52:29 EET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareLogFile -->
+        <test-method is-config="true" signature="setRestAssured()[pri:0, instance:dek21.tests.player_controller.UpdatePlayerTest@4f2c9ba6]" started-at="2023-11-01T10:52:29 EET" name="setRestAssured" finished-at="2023-11-01T10:52:29 EET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRestAssured -->
+        <test-method is-config="true" signature="preparePlayers()[pri:0, instance:dek21.tests.player_controller.UpdatePlayerTest@4f2c9ba6]" started-at="2023-11-01T10:52:29 EET" name="preparePlayers" finished-at="2023-11-01T10:52:30 EET" duration-ms="1617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preparePlayers -->
+        <test-method signature="updateByNegativeIdTest()[pri:0, instance:dek21.tests.player_controller.UpdatePlayerTest@4f2c9ba6]" started-at="2023-11-01T10:52:30 EET" name="updateByNegativeIdTest" description="Update Player by negative ID" finished-at="2023-11-01T10:52:31 EET" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateByNegativeIdTest -->
+        <test-method signature="updateNotExistedPlayerTest()[pri:0, instance:dek21.tests.player_controller.UpdatePlayerTest@4f2c9ba6]" started-at="2023-11-01T10:52:31 EET" name="updateNotExistedPlayerTest" description="Update not existed Player" finished-at="2023-11-01T10:52:31 EET" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNotExistedPlayerTest -->
+        <test-method signature="updatePlayerTest()[pri:0, instance:dek21.tests.player_controller.UpdatePlayerTest@4f2c9ba6]" started-at="2023-11-01T10:52:31 EET" name="updatePlayerTest" description="Update Player" finished-at="2023-11-01T10:52:31 EET" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlayerTest -->
+        <test-method is-config="true" signature="clearData()[pri:0, instance:dek21.tests.player_controller.UpdatePlayerTest@4f2c9ba6]" started-at="2023-11-01T10:52:31 EET" name="clearData" finished-at="2023-11-01T10:52:31 EET" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearData -->
+        <test-method is-config="true" signature="addLogToAllure()[pri:0, instance:dek21.tests.player_controller.UpdatePlayerTest@4f2c9ba6]" started-at="2023-11-01T10:52:31 EET" name="addLogToAllure" description="Add logs to Allure Report" finished-at="2023-11-01T10:52:31 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLogToAllure -->
+      </class> <!-- dek21.tests.player_controller.UpdatePlayerTest -->
+      <class name="dek21.tests.player_controller.CreatePlayerTest">
+        <test-method is-config="true" signature="configureEndPoints()[pri:0, instance:dek21.tests.player_controller.CreatePlayerTest@5357c287]" started-at="2023-11-01T10:52:31 EET" name="configureEndPoints" finished-at="2023-11-01T10:52:31 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureEndPoints -->
+        <test-method is-config="true" signature="prepareLogFile()[pri:0, instance:dek21.tests.player_controller.CreatePlayerTest@5357c287]" started-at="2023-11-01T10:52:31 EET" name="prepareLogFile" finished-at="2023-11-01T10:52:31 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareLogFile -->
+        <test-method is-config="true" signature="setRestAssured()[pri:0, instance:dek21.tests.player_controller.CreatePlayerTest@5357c287]" started-at="2023-11-01T10:52:31 EET" name="setRestAssured" finished-at="2023-11-01T10:52:31 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRestAssured -->
+        <test-method signature="createPlayerTest()[pri:0, instance:dek21.tests.player_controller.CreatePlayerTest@5357c287]" started-at="2023-11-01T10:52:31 EET" name="createPlayerTest" description="Create Player" finished-at="2023-11-01T10:52:32 EET" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlayerTest -->
+        <test-method signature="createPlayerWithAge61Test()[pri:0, instance:dek21.tests.player_controller.CreatePlayerTest@5357c287]" started-at="2023-11-01T10:52:32 EET" name="createPlayerWithAge61Test" description="Create Player with the age of 61" finished-at="2023-11-01T10:52:32 EET" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlayerWithAge61Test -->
+        <test-method is-config="true" signature="clearData()[pri:0, instance:dek21.tests.player_controller.CreatePlayerTest@5357c287]" started-at="2023-11-01T10:52:32 EET" name="clearData" finished-at="2023-11-01T10:52:33 EET" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearData -->
+        <test-method is-config="true" signature="addLogToAllure()[pri:0, instance:dek21.tests.player_controller.CreatePlayerTest@5357c287]" started-at="2023-11-01T10:52:33 EET" name="addLogToAllure" description="Add logs to Allure Report" finished-at="2023-11-01T10:52:33 EET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLogToAllure -->
+      </class> <!-- dek21.tests.player_controller.CreatePlayerTest -->
+      <class name="dek21.tests.player_controller.DeletePlayerTest">
+        <test-method is-config="true" signature="configureEndPoints()[pri:0, instance:dek21.tests.player_controller.DeletePlayerTest@3a62c01e]" started-at="2023-11-01T10:52:31 EET" name="configureEndPoints" finished-at="2023-11-01T10:52:31 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureEndPoints -->
+        <test-method is-config="true" signature="prepareLogFile()[pri:0, instance:dek21.tests.player_controller.DeletePlayerTest@3a62c01e]" started-at="2023-11-01T10:52:31 EET" name="prepareLogFile" finished-at="2023-11-01T10:52:31 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareLogFile -->
+        <test-method is-config="true" signature="setRestAssured()[pri:0, instance:dek21.tests.player_controller.DeletePlayerTest@3a62c01e]" started-at="2023-11-01T10:52:31 EET" name="setRestAssured" finished-at="2023-11-01T10:52:31 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRestAssured -->
+        <test-method is-config="true" signature="preparePlayers()[pri:0, instance:dek21.tests.player_controller.DeletePlayerTest@3a62c01e]" started-at="2023-11-01T10:52:31 EET" name="preparePlayers" finished-at="2023-11-01T10:52:32 EET" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preparePlayers -->
+        <test-method signature="deleteExistedPlayerTest()[pri:0, instance:dek21.tests.player_controller.DeletePlayerTest@3a62c01e]" started-at="2023-11-01T10:52:32 EET" name="deleteExistedPlayerTest" description="Delete existed Player" finished-at="2023-11-01T10:52:32 EET" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExistedPlayerTest -->
+        <test-method signature="deletePlayerByNegativeIdTest()[pri:0, instance:dek21.tests.player_controller.DeletePlayerTest@3a62c01e]" started-at="2023-11-01T10:52:32 EET" name="deletePlayerByNegativeIdTest" description="Delete Player by negative ID" finished-at="2023-11-01T10:52:33 EET" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePlayerByNegativeIdTest -->
+        <test-method is-config="true" signature="clearData()[pri:0, instance:dek21.tests.player_controller.DeletePlayerTest@3a62c01e]" started-at="2023-11-01T10:52:33 EET" name="clearData" finished-at="2023-11-01T10:52:33 EET" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearData -->
+        <test-method is-config="true" signature="addLogToAllure()[pri:0, instance:dek21.tests.player_controller.DeletePlayerTest@3a62c01e]" started-at="2023-11-01T10:52:33 EET" name="addLogToAllure" description="Add logs to Allure Report" finished-at="2023-11-01T10:52:33 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLogToAllure -->
+      </class> <!-- dek21.tests.player_controller.DeletePlayerTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>

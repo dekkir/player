@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>TestNG:  Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 01 10:52:28 EET 2023</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4724 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dek21.tests.player_controller.CreatePlayerTest.createPlayerTest()'><b>createPlayerTest</b><br>Test class: dek21.tests.player_controller.CreatePlayerTest<br>Test method: Create Player</td>
+<td></td>
+<td>0</td>
+<td>dek21.tests.player_controller.CreatePlayerTest@5357c287</td></tr>
+<tr>
+<td title='dek21.tests.player_controller.GetPlayersTest.getPlayersTest()'><b>getPlayersTest</b><br>Test class: dek21.tests.player_controller.GetPlayersTest<br>Test method: Get Players</td>
+<td></td>
+<td>3</td>
+<td>dek21.tests.player_controller.GetPlayersTest@3c435123</td></tr>
+<tr>
+<td title='dek21.tests.player_controller.GetPlayerByIdTest.getDefaultPlayerByIdTest()'><b>getDefaultPlayerByIdTest</b><br>Test class: dek21.tests.player_controller.GetPlayerByIdTest<br>Test method: Get default Player</td>
+<td></td>
+<td>0</td>
+<td>dek21.tests.player_controller.GetPlayerByIdTest@50fe837a</td></tr>
+<tr>
+<td title='dek21.tests.player_controller.DeletePlayerTest.deletePlayerByNegativeIdTest()'><b>deletePlayerByNegativeIdTest</b><br>Test class: dek21.tests.player_controller.DeletePlayerTest<br>Test method: Delete Player by negative ID</td>
+<td></td>
+<td>0</td>
+<td>dek21.tests.player_controller.DeletePlayerTest@3a62c01e</td></tr>
+<tr>
+<td title='dek21.tests.player_controller.CreatePlayerTest.createPlayerWithAge61Test()'><b>createPlayerWithAge61Test</b><br>Test class: dek21.tests.player_controller.CreatePlayerTest<br>Test method: Create Player with the age of 61</td>
+<td></td>
+<td>0</td>
+<td>dek21.tests.player_controller.CreatePlayerTest@5357c287</td></tr>
+<tr>
+<td title='dek21.tests.player_controller.UpdatePlayerTest.updateByNegativeIdTest()'><b>updateByNegativeIdTest</b><br>Test class: dek21.tests.player_controller.UpdatePlayerTest<br>Test method: Update Player by negative ID</td>
+<td></td>
+<td>0</td>
+<td>dek21.tests.player_controller.UpdatePlayerTest@4f2c9ba6</td></tr>
+<tr>
+<td title='dek21.tests.player_controller.DeletePlayerTest.deleteExistedPlayerTest()'><b>deleteExistedPlayerTest</b><br>Test class: dek21.tests.player_controller.DeletePlayerTest<br>Test method: Delete existed Player</td>
+<td></td>
+<td>0</td>
+<td>dek21.tests.player_controller.DeletePlayerTest@3a62c01e</td></tr>
+<tr>
+<td title='dek21.tests.player_controller.GetPlayerByIdTest.getPlayerByNegativeIdTest()'><b>getPlayerByNegativeIdTest</b><br>Test class: dek21.tests.player_controller.GetPlayerByIdTest<br>Test method: Get Player by negative ID</td>
+<td></td>
+<td>0</td>
+<td>dek21.tests.player_controller.GetPlayerByIdTest@50fe837a</td></tr>
+<tr>
+<td title='dek21.tests.player_controller.UpdatePlayerTest.updatePlayerTest()'><b>updatePlayerTest</b><br>Test class: dek21.tests.player_controller.UpdatePlayerTest<br>Test method: Update Player</td>
+<td></td>
+<td>0</td>
+<td>dek21.tests.player_controller.UpdatePlayerTest@4f2c9ba6</td></tr>
+<tr>
+<td title='dek21.tests.player_controller.UpdatePlayerTest.updateNotExistedPlayerTest()'><b>updateNotExistedPlayerTest</b><br>Test class: dek21.tests.player_controller.UpdatePlayerTest<br>Test method: Update not existed Player</td>
+<td></td>
+<td>0</td>
+<td>dek21.tests.player_controller.UpdatePlayerTest@4f2c9ba6</td></tr>
+<tr>
+<td title='dek21.tests.player_controller.GetPlayerByIdTest.getPlayerByIdTest()'><b>getPlayerByIdTest</b><br>Test class: dek21.tests.player_controller.GetPlayerByIdTest<br>Test method: Get Player by ID</td>
+<td></td>
+<td>0</td>
+<td>dek21.tests.player_controller.GetPlayerByIdTest@50fe837a</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" parallel="classes" thread-count="3">
+    <test name="Tests">
+        <classes>
+            <class name="dek21.tests.player_controller.UpdatePlayerTest"/>
+            <class name="dek21.tests.player_controller.GetPlayersTest"/>
+            <class name="dek21.tests.player_controller.GetPlayerByIdTest"/>
+            <class name="dek21.tests.player_controller.DeletePlayerTest"/>
+            <class name="dek21.tests.player_controller.CreatePlayerTest"/>
+        </classes>
+    </test>
+</suite>
